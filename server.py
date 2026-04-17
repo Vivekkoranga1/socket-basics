@@ -10,7 +10,7 @@ import socket
 HOST = socket.gethostbyname(socket.gethostname())
 PORT = 5050
 FORMAT = "utf-8"
-DISCONNECTED = 'exit'
+#DISCONNECTED = 'exit'
 
 #create TCP trasmission control protocol
 server = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
